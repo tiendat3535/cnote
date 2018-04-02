@@ -1,0 +1,14 @@
+# Server Port
+server:
+  port: 8888
+
+spring:
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          searchLocations: classpath:config/,
+                           classpath:config/authenservice,
+                           classpath:config/coreservice

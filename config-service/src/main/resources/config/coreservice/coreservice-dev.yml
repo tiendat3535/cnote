@@ -1,0 +1,10 @@
+# Server Port
+server:
+  port: 8001
+
+# Callback Url to Authen Service
+security:
+  oauth2:
+    resource:
+      userInfoUri: http://localhost:8000/api/v1/auth/user
+
