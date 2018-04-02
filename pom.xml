@@ -57,6 +57,7 @@
         <module>core-service</module>
         <module>authen-service</module>
         <module>config-service</module>
+        <module>discovery-service</module>
     </modules>
 
 </project>
