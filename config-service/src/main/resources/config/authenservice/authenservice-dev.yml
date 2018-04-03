@@ -1,3 +1,7 @@
+# Server Port
+server:
+  port: 8000
+
 # Spring datasource
 spring:
   datasource:
@@ -16,6 +20,12 @@ spring:
       enabled: true
       path: /h2-console
 
-# Server Port
-server:
-  port: 8000
+# Register Eureka Service
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

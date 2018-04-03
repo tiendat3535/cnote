@@ -41,6 +41,12 @@
             <artifactId>spring-cloud-config-client</artifactId>
         </dependency>
 
+        <!-- Spring Eureka Discovery -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-eureka</artifactId>
+        </dependency>
+
         <!-- Spring Boot Libraries-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
